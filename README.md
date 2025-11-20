@@ -1,50 +1,37 @@
 # Contabiliza Digital
 
-Este projeto é um site completo e moderno para um escritório de contabilidade digital. Embora o código fonte seja React (TypeScript), ele é compilado em uma aplicação Single Page (SPA) que pode ser hospedada estaticamente no GitHub Pages.
+Este é o site institucional da **Contabiliza Digital**, desenvolvido como uma Single Page Application (SPA) moderna usando React, TypeScript e Tailwind CSS.
+
+## 🚨 IMPORTANTE: Como publicar no GitHub Pages
+
+**Não faça upload dos arquivos `.tsx` diretamente.** O navegador não consegue ler esses arquivos, o que causa a tela branca ("Blank Page"). Você precisa "compilar" o site primeiro.
+
+### Passo a Passo para Publicação Correta:
+
+1.  **Instale o Node.js** no seu computador (caso não tenha).
+2.  Baixe todos os arquivos deste projeto para uma pasta local.
+3.  Abra o terminal nessa pasta e execute:
+    ```bash
+    npm install
+    ```
+4.  Gere a versão de produção executando:
+    ```bash
+    npm run build
+    ```
+5.  Isso criará uma pasta chamada **`dist`**.
+    *   Esta pasta contém arquivos `.html`, `.js` e `.css` otimizados.
+6.  **Faça upload APENAS do conteúdo da pasta `dist`** para o seu repositório no GitHub (branch `gh-pages` ou configure a branch `main` para ler a partir da pasta docs/root, dependendo da sua configuração).
+    *   *Dica:* Se estiver usando a branch `gh-pages`, o conteúdo da pasta `dist` deve estar na raiz dessa branch.
 
 ## Estrutura do Projeto
 
-O projeto utiliza **React 18**, **TypeScript**, **Tailwind CSS** e **React Router (HashRouter)**.
+- `src/`: (Conceitual) A raiz contém os arquivos fontes `.tsx`.
+- `dist/`: (Gerada após build) Contém o site pronto para o navegador.
+- `vite.config.ts`: Configuração crucial para que os links funcionem no GitHub Pages (`base: './'`).
 
-- `/index.html`: Arquivo base.
-- `/index.tsx`: Ponto de entrada da aplicação.
-- `/constants.ts`: **Todo o texto e dados do site estão aqui.** Edite este arquivo para alterar telefones, descrições de serviços, preços ou textos institucionais.
-- `/pages/`: Contém as telas (Home, Sobre, Serviços, Detalhe do Serviço, Contato).
-- `/components/`: Componentes reutilizáveis (Layout, Navbar, Footer).
+## Personalização
 
-## Como Funciona a Navegação (SPA vs HTML Estático)
+Para editar textos, preços ou informações de contato, edite o arquivo **`constants.ts`** e rode `npm run build` novamente para atualizar o site.
 
-Diferente de um site com arquivos HTML separados (`/servicos/index.html`), este projeto carrega uma única vez e troca o conteúdo instantaneamente via Javascript.
-
-Para compatibilidade total com GitHub Pages (que não possui roteamento de servidor real), utilizamos o modo `HashRouter`.
-
-**Exemplos de URL:**
-- Home: `https://seu-usuario.github.io/contabiliza/#/`
-- Serviços: `https://seu-usuario.github.io/contabiliza/#/servicos`
-- Abertura de Empresa: `https://seu-usuario.github.io/contabiliza/#/servicos/abertura-de-empresa`
-
-## Como Editar o Conteúdo
-
-Não é necessário saber React profundamente para alterar os textos.
-1. Abra o arquivo `constants.ts`.
-2. Localize a constante `COMPANY_INFO` para mudar telefone, e-mail e endereço.
-3. Localize `SERVICES` para alterar descrições e benefícios de cada serviço.
-
-## Publicação no GitHub Pages
-
-Como este código é gerado em um único bloco para fins de demonstração, para publicar você deve usar uma ferramenta de build como Vite ou Create React App.
-
-**Passo a passo rápido (usando Vite):**
-
-1. Crie um projeto Vite: `npm create vite@latest contabiliza-site -- --template react-ts`
-2. Instale dependências: `npm install lucide-react react-router-dom`
-3. Copie os arquivos fornecidos para a pasta `src` do projeto.
-4. Copie o `index.html` para a raiz.
-5. Execute `npm run build`.
-6. A pasta `dist` conterá o site pronto.
-7. Faça o upload do conteúdo da pasta `dist` para seu repositório GitHub (branch `gh-pages` ou `main` configurado como Pages).
-
-## Manutenção
-
-- **Cores:** Estão definidas no `tailwind.config` dentro do `index.html`.
-- **Imagens:** Atualmente usa Picsum. Substitua as URLs em `pages/Home.tsx` e `constants.ts` por imagens reais da empresa.
+- **Cores:** Definidas no arquivo `index.html` (configuração do Tailwind).
+- **Imagens:** Substitua as URLs do Unsplash/Picsum em `constants.ts` pelas suas imagens reais.
