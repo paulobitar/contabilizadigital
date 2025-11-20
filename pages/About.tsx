@@ -9,7 +9,7 @@ export default function About() {
       <section className="bg-slate-50 py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Sobre a Nexus</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Sobre a Contabiliza</h1>
             <p className="text-lg text-slate-600 leading-relaxed">
               Nascemos com o propósito de descomplicar a vida do empreendedor brasileiro. 
               Unimos a segurança da contabilidade tradicional com a agilidade da era digital.
@@ -68,7 +68,7 @@ export default function About() {
                     <h2 className="text-3xl font-bold mb-6">Nossa História</h2>
                     <div className="space-y-6 text-slate-300">
                         <p>
-                            A Nexus começou em 2018, quando percebemos que o modelo tradicional de contabilidade – cheio de papéis, motoboys e prazos perdidos – não atendia mais às necessidades do mercado moderno.
+                            A Contabiliza começou em 2018, quando percebemos que o modelo tradicional de contabilidade – cheio de papéis, motoboys e prazos perdidos – não atendia mais às necessidades do mercado moderno.
                         </p>
                         <p>
                             O que começou numa pequena sala comercial, hoje é uma operação que atende mais de 500 empresas em 12 estados brasileiros. Crescemos porque colocamos o cliente no centro de tudo.

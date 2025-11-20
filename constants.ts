@@ -1,9 +1,9 @@
 import { ServiceData, Testimonial, NavLink } from './types';
 
 export const COMPANY_INFO = {
-  name: "Nexus Contabilidade Digital",
+  name: "Contabiliza Digital",
   phone: "(11) 99999-8888",
-  email: "contato@nexuscontabil.com.br",
+  email: "contato@contabilizadigital.com.br",
   address: "Av. Paulista, 1000, Sala 42 - São Paulo, SP",
   whatsappLink: "https://wa.me/5511999998888",
 };
@@ -33,7 +33,7 @@ export const SERVICES: Record<string, ServiceData> = {
     subtitle: "Tire seu sonho do papel sem burocracia e sem custos de honorários.",
     iconName: "Briefcase",
     shortDescription: "Processo 100% digital para formalizar seu negócio em tempo recorde.",
-    fullDescription: "Abrir uma empresa no Brasil pode parecer complexo, mas na Nexus nós simplificamos tudo. Nós cuidamos de toda a parte burocrática, desde a consulta de viabilidade até a emissão do CNPJ e Inscrição Municipal. Para clientes que fecham o plano anual de contabilidade, os honorários de abertura são gratuitos.",
+    fullDescription: "Abrir uma empresa no Brasil pode parecer complexo, mas na Contabiliza nós simplificamos tudo. Nós cuidamos de toda a parte burocrática, desde a consulta de viabilidade até a emissão do CNPJ e Inscrição Municipal. Para clientes que fecham o plano anual de contabilidade, os honorários de abertura são gratuitos.",
     benefits: [
       "Emissão de CNPJ em até 48 horas (dependendo da cidade)",
       "Enquadramento tributário otimizado (Simples Nacional ou Presumido)",
@@ -136,8 +136,8 @@ export const SERVICES: Record<string, ServiceData> = {
     title: "Troca de Contador",
     subtitle: "Migração tranquila, sem perder o histórico da sua empresa.",
     iconName: "RefreshCw",
-    shortDescription: "Traga sua empresa para a Nexus sem dor de cabeça.",
-    fullDescription: "Está insatisfeito com seu contador atual? A migração para a Nexus é simples. Nós entramos em contato com seu antigo contador, solicitamos toda a documentação técnica e fazemos a transferência de responsabilidade. Você não precisa se indispor, nós resolvemos tudo.",
+    shortDescription: "Traga sua empresa para a Contabiliza sem dor de cabeça.",
+    fullDescription: "Está insatisfeito com seu contador atual? A migração para a Contabiliza é simples. Nós entramos em contato com seu antigo contador, solicitamos toda a documentação técnica e fazemos a transferência de responsabilidade. Você não precisa se indispor, nós resolvemos tudo.",
     benefits: [
       "Nós falamos com seu antigo contador por você",
       "Auditoria inicial gratuita do cadastro fiscal",
@@ -163,7 +163,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Roberto Silva",
     company: "Tech Solutions Ltda",
-    text: "A Nexus mudou a forma como vejo a contabilidade. Tudo é muito rápido e transparente. A equipe sempre responde minhas dúvidas no WhatsApp em minutos.",
+    text: "A Contabiliza mudou a forma como vejo a contabilidade. Tudo é muito rápido e transparente. A equipe sempre responde minhas dúvidas no WhatsApp em minutos.",
     image: "https://picsum.photos/id/1005/100/100"
   },
   {

@@ -101,7 +101,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Por que escolher a Nexus?</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Por que escolher a Contabiliza?</h2>
               <p className="text-slate-300 mb-8 text-lg">
                 Não somos apenas um gerador de guias de impostos. Somos parceiros estratégicos do seu negócio, utilizando tecnologia para entregar valor real.
               </p>
@@ -201,7 +201,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">Pronto para modernizar sua contabilidade?</h2>
           <p className="text-brand-100 text-lg mb-8 max-w-2xl mx-auto">
-            Junte-se a mais de 500 empreendedores que escolheram a Nexus. Simples, rápido e digital.
+            Junte-se a mais de 500 empreendedores que escolheram a Contabiliza. Simples, rápido e digital.
           </p>
           <Link 
             to="/contato"

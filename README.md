@@ -1,4 +1,4 @@
-# Nexus Contabilidade Digital
+# Contabiliza Digital
 
 Este projeto é um site completo e moderno para um escritório de contabilidade digital. Embora o código fonte seja React (TypeScript), ele é compilado em uma aplicação Single Page (SPA) que pode ser hospedada estaticamente no GitHub Pages.
 
@@ -19,9 +19,9 @@ Diferente de um site com arquivos HTML separados (`/servicos/index.html`), este 
 Para compatibilidade total com GitHub Pages (que não possui roteamento de servidor real), utilizamos o modo `HashRouter`.
 
 **Exemplos de URL:**
-- Home: `https://seu-usuario.github.io/nexus/#/`
-- Serviços: `https://seu-usuario.github.io/nexus/#/servicos`
-- Abertura de Empresa: `https://seu-usuario.github.io/nexus/#/servicos/abertura-de-empresa`
+- Home: `https://seu-usuario.github.io/contabiliza/#/`
+- Serviços: `https://seu-usuario.github.io/contabiliza/#/servicos`
+- Abertura de Empresa: `https://seu-usuario.github.io/contabiliza/#/servicos/abertura-de-empresa`
 
 ## Como Editar o Conteúdo
 
@@ -36,7 +36,7 @@ Como este código é gerado em um único bloco para fins de demonstração, para
 
 **Passo a passo rápido (usando Vite):**
 
-1. Crie um projeto Vite: `npm create vite@latest nexus-site -- --template react-ts`
+1. Crie um projeto Vite: `npm create vite@latest contabiliza-site -- --template react-ts`
 2. Instale dependências: `npm install lucide-react react-router-dom`
 3. Copie os arquivos fornecidos para a pasta `src` do projeto.
 4. Copie o `index.html` para a raiz.

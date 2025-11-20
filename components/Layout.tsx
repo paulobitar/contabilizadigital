@@ -27,8 +27,8 @@ export default function Layout({ children }: LayoutProps) {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
-               <div className="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">N</div>
-               <span className="text-xl font-bold text-gray-900 tracking-tight">Nexus<span className="text-brand-600">Contábil</span></span>
+               <div className="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">C</div>
+               <span className="text-xl font-bold text-gray-900 tracking-tight">Contabiliza<span className="text-brand-600">Digital</span></span>
             </Link>
 
             {/* Desktop Nav */}
@@ -157,8 +157,8 @@ export default function Layout({ children }: LayoutProps) {
                 {/* Brand */}
                 <div>
                     <div className="flex items-center gap-2 text-white font-bold text-2xl mb-6">
-                        <div className="w-8 h-8 bg-brand-500 rounded flex items-center justify-center">N</div>
-                        Nexus
+                        <div className="w-8 h-8 bg-brand-500 rounded flex items-center justify-center">C</div>
+                        Contabiliza
                     </div>
                     <p className="mb-6 text-slate-400 leading-relaxed">
                         Contabilidade digital inteligente para empresas que querem crescer. 
@@ -215,7 +215,7 @@ export default function Layout({ children }: LayoutProps) {
             </div>
 
             <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-                <p>&copy; {new Date().getFullYear()} Nexus Contabilidade Digital. Todos os direitos reservados.</p>
+                <p>&copy; {new Date().getFullYear()} Contabiliza Digital. Todos os direitos reservados.</p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
                     <a href="#" className="hover:text-white">Privacidade</a>
                     <a href="#" className="hover:text-white">Termos de Uso</a>
