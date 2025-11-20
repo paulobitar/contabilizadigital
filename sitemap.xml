@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/sobre/</loc></url>
+  <url><loc>https://example.com/servicos/</loc></url>
+  <url><loc>https://example.com/servicos/abertura-de-empresa.html</loc></url>
+  <url><loc>https://example.com/servicos/contabilidade-mensal.html</loc></url>
+  <url><loc>https://example.com/servicos/folha-de-pagamento.html</loc></url>
+  <url><loc>https://example.com/servicos/consultoria-tributaria.html</loc></url>
+  <url><loc>https://example.com/servicos/troca-de-contador.html</loc></url>
+  <url><loc>https://example.com/como-funciona/</loc></url>
+  <url><loc>https://example.com/contato/</loc></url>
+</urlset>
